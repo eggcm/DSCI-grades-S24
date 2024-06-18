@@ -41,11 +41,9 @@ function display() {
     Final Demo(20%):${data[id].Final}
     Final Report(25%):${data[id].Report}
 
-    Attendance (5%)
-    CPE: ${data[id].Attend}
+    Attendance (5%): ${data[id].Attend}
     
-    Grade (Mark)
-    Sem: ${data[id].SEM}
+    Semester Grade (Mark): ${data[id].SEM}
     `;
     p.innerText = display;
 }
