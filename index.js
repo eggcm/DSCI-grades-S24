@@ -19,7 +19,7 @@ const p = document.getElementById('display-grade');
         })
 
         for (const grade of grades) {
-            data[grade[`序號`]]= grade;
+            data[grade[`Key`]]= grade;
         }
 	}
 })
