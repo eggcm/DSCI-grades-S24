@@ -30,28 +30,22 @@ function display() {
     // p.innerText = JSON.stringify(data[id]);
     const display = `
     SID:${data[id].學號}
-    GroupID:${data[id].學號}
-    各項作業分數：
-    H1: ${data[id].HW1}
-    H2: ${data[id].HW2}
-    H3: ${data[id].HW3}
-    H4: ${data[id].HW4}
-    H5: ${data[id].HW5}
-    H6: ${data[id].HW6}
+    
+    Homework Sets (30%)
+    H1 (15%): ${data[id].HW1}
+    H2 (15%): ${data[id].HW2}
 
-    考試分數：
-    Mid:${data[id].Mid}
-    Fin:${data[id].Fin}
+    Project (65%)
+    GroupID:${data[id].Group}
+    Proposal (20%):${data[id].Proposal}
+    Final Demo(20%):${data[id].Final}
+    Final Report(25%):${data[id].Report}
+
+    Attendance (5%)
+    CPE: ${data[id].Attend}
     
-    CPE加分項目：
-    CPE: ${data[id].CPE}
-    
-    學期總成績：
-    Sem: ${data[id].Sem}
-    
-    分數計算方式：
-    The grade is determined by the following rule: (H1+H2+H3+H4+H5+H6)/6*0.4+Mid*0.25+FIN*0.35+CPE.
-    Note that the highest grade of this course is 99. If your final grade is large than 99, then you will get 99 at most.
+    Grade (Mark)
+    Sem: ${data[id].SEM}
     `;
     p.innerText = display;
 }
