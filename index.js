@@ -30,7 +30,7 @@ function display() {
     // p.innerText = JSON.stringify(data[id]);
     const display = `
     SID:${data[id].學號}
-    
+    GroupID:${data[id].學號}
     各項作業分數：
     H1: ${data[id].HW1}
     H2: ${data[id].HW2}
