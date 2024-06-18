@@ -37,11 +37,12 @@ function display() {
     H2 (15%): ${data[id].HW2}
 
     Project (65%)
-    Proposal (20%):${data[id].Proposal}
-    Final Demo(20%):${data[id].Final}
-    Final Report(25%):${data[id].Report}
+    Proposal    (20%): ${data[id].Proposal}
+    Final Demo  (20%): ${data[id].Final}
+    Final Report(25%): ${data[id].Report}
 
-    Attendance (5%): ${data[id].Attend}
+    Attendance (including taking surveys)(5%)
+    Attend: ${data[id].Attend}
     
     Semester Grade (Mark): ${data[id].SEM}
     `;
